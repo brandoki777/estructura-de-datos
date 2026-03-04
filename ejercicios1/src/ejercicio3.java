@@ -1,5 +1,9 @@
+package ejercicios1.src;
 
 public class ejercicio3 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         
         double Temperatura = 81.0;
@@ -15,7 +19,7 @@ public class ejercicio3 {
         System.out.println("Sensor: " + Sensor);
         System.out.println("Numero de lecturas: " + numerolecturas);
         System.out.println("Alarma activada: " + alarma);
-        System.out.println("----------------------------------------------------------------------")
+
 
     }
 
