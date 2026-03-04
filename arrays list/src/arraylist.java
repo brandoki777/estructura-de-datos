@@ -4,7 +4,7 @@
 
 public class arraylist {
 
-    public static String busquedaLineal(int[] estanteria, int codigoBuscado) {
+    public static String busqueda_Lineal(int[] estanteria, int codigoBuscado) {
         for (int i = 0; i < estanteria.length; i++) {
             if (estanteria[i] == codigoBuscado) {
                 return "Producto encontrado en la posición " + i;
@@ -13,16 +13,10 @@ public class arraylist {
         return "Producto no encontrado en la estantería";
     }
 
-    public static void main(String[] args) {
-        // Ejemplo de arreglo desordenado con códigos de productos
+    public static void main(String[] args) {  
         int[] estanteria = {123456, 555666, 770123, 888999, 444555};
-
-        int codigo = 770123; // Código que escanea el cajero
-
-        // Llamada al método de búsqueda
-        String resultado = busquedaLineal(estanteria, codigo);
-
-        // Mostrar resultado
+        int codigo = 770123; 
+        String resultado = busqueda_Lineal(estanteria, codigo);
         System.out.println(resultado);
     }
 }
