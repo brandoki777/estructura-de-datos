@@ -1,4 +1,6 @@
-public class ejercicio5 {
+//Un profesor tiene un arreglo con las notas finales de 30 estudiantes (ej: 3.5, 4.0, 2.8, 5.0, ...).
+//El Problema: El profesor necesita saber exactamente cuántos estudiantes sacaron una nota de 5.0.
+//Algoritmo a usar: Búsqueda Lineal con Contador. Debes recorrer todo el arreglo y, cada vez que encuentres un 5.0, aumentar una variable contador.public class ejercicio5 {
     public static void main(String[] args) {
         double[] notas = {3.0, 4.0, 3.0, 4.0, 3.6, 2.0, 3.5, 4.7, 1.0, 3.2,
                           4.2, 5.0, 2.3, 4.0, 2.1, 2.0, 3.9, 3.3, 2.5, 4.0,
